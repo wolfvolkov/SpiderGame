@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+* { overflow: hidden; }
+#can1{position:absolute;}
+#can2{position:absolute;}
+#game_area{
+	height:768px;
+	z-index:1;
+	
+	
+}
+#menu1, #menu2{
+	height:768px;
+	
+	
+	
+}
+.ui-dialog .ui-header, 
+.ui-dialog .ui-content, 
+.ui-dialog .ui-footer {
+	overflow: hidden;
+	background-color:#CCC;
+	max-height:600px; 
+	max-width: 500px;
+	margin: 10% auto 15px auto; 
+	
+}
+#menu,{
+	width:1000px;
+	height:700px;
+	background-color:#CCC;
+	vertical-align:central;
+	position:absolute;
+	ruby-align:center;
+	margin-left:inherit;
+	margin-right:inherit;
+	z-index:0;
+}
+#menuP{
+	width:100%;
+	height:100%;
+	//background-color:#CCC;
+	//vertical-align:central;
+	position:absolute;
+	//ruby-align:center;
+	float:left;
+	margin-left:0;
+	//margin-right:inherit;
+	z-index:0;
+}
+#pause_M{
+background-color:#CCC;
+}
+
+#bPlay
+{
+	width:350px;
+	height:10%;
+	background-color:#FFF;
+	position:relative;
+	margin-top:10%;
+}
+#bSeting
+{
+	width:350px;
+	height:10%;
+	background-color:#FFF;
+	position:relative;
+	margin-top:10%;
+}
+#bHelp
+{
+	width:350px;
+	height:10%;
+	background-color:#FFF;
+	position:relative;
+	margin-top:10%;
+}
+.M_button:hover
+{
+	
+background-color:#000;
+}
+
